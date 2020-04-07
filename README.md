@@ -10,6 +10,8 @@ RUN detectClap.py AND CLAP IN ORDER TO SEND A MESSAGE TO A SEPARATE SUBSCRIBER.
 After obtaining a server on your cloud provider of choice, enable Incoming TCP requests and then run these commands to install the Mosquitto MQTT Broker.
 
 `sudo apt-get install mosquitto mosquitto-clients`
+
+
 `sudo /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf` 
 
 
